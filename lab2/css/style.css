@@ -1,0 +1,27 @@
+.task1 {
+  max-width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+}
+.text2 {
+  margin: 10px 0px;
+}
+.text3 {
+  margin: 10px 0;
+}
+.text4 {
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+}
+.text5 {
+  margin: 10px 0;
+  font-style: italic;
+}
+.text6 {
+  margin: 10px 0;
+  font-style: italic;
+}
+.text7 {
+  margin: 10px 0;
+  font-style: italic;
+}

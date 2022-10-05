@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <h3>Task1</h3>
+   <input type="text" id="tk1inp">
+   <button id="tk1btn">OK</button>
+
+   <h3>Task2</h3>
+   <div>
+      <input type="text" id="tk2inp1">
+   </div>
+   <div>
+      <input type="text" id="tk2inp2">
+   </div>
+   <button id="tk2btn">OK</button>
+
+   <h3>Task3</h3>
+   <div>
+      <span>Сторона А</span>
+      <input type="number" id="tk3inp1">
+   </div>
+   <div>
+      <span>Сторона В</span>
+      <input type="number" id="tk3inp2">
+   </div>
+   <button id="tk3btn">OK</button>
+   <div id="text3"></div>
+
+   <h3>Task4</h3>
+   <div>
+      <span>Час русу (с)</span>
+      <input type="number" id="tk4inp1">
+   </div>
+   <div>
+      <span>Відстань (м)</span>
+      <input type="number" id="tk4inp2">
+   </div>
+   <button id="tk4btn">OK</button>
+   <div id="text4"></div>
+
+   <h3>Task5</h3>
+   <input type="color" name="" id="tk5inp">
+   <div id="place5"></div>
+
+   <h3>Task6</h3>
+   <select id="tk5Select">
+      <option value="Los-Angeles">Los-Angeles</option>
+      <option value="Chicago">Chicago</option>
+      <option value="New-York">New-York</option>
+   </select>
+   <div id="place6"></div>
+
+   <h3>Task7</h3>
+   <fieldset>
+      <legend>Тпи житла</legend>
+      <input type="radio" name="flat" id="radio" value=0>
+      <span>Новобуд(багатоквартирний)</span>
+      <div>
+         <input type="radio" name="flat" id="radio" value=1>
+         <span>Вторине житло(багатоквартирний)</span>
+      </div>
+      <input type="radio" name="flat" id="radio" value="2">
+      <span>Приватний будинок</span>
+   </fieldset>
+   <fieldset id="form2">
+      <div>
+         Ціна:
+         <input type="number" id="tk7inp1">
+      </div>
+      <div id="floor">
+         Поверх:
+         <input type="number" id="tk7inp2">
+      </div>
+   </fieldset>
+   <button id="tk7btn">OK</button>
+
+   <h3>Task8</h3>
+   <div>Random number:</div>
+   <div id="rand"></div>
+   <button id="randBtn">Generare ramdom number</button>
+
+   <h3>Task9</h3>
+   <button id="tk9btn">Hide/show text</button>
+   <div id="tk9txt">
+      Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Exercitationem recusandae
+      labore atque nemo debitis
+      minima minus iste eum! Facilis culpa voluptate
+      tenetur quia repudiandae illo accusantium rerum libero assumenda
+      cum?
+   </div>
+
+   <h3>Task10</h3>
+   <div id="container">
+      <div id="items">
+         <div id="box">
+            <div id="item1">HTML</div>
+            <div id="item2">CSS</div>
+            <div id="item3">JS</div>
+         </div>
+
+      </div>
+      <div id="text">
+         <div id="textt1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eaque libero
+            facere hic consequatur provident. Eligendi nobis incidunt aliquam nihil?</div>
+         <div id="textt2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dignissimos animi vel
+            blanditiis nostrum voluptatibus molestias! Nobis est quisquam
+            sapiente debitis optio ratione sit ad, vero magni ducimus fuga quos.</div>
+         <div id="textt3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam cum ducimus sapiente sed
+            eaque ad corporis dolorem quos aperiam, tempore porro dolores
+            iusto blanditiis soluta aliquid voluptatum quasi magnam eveniet?</div>
+      </div>
+   </div>
+   <h3>Task11</h3>
+   <progress id="progr" max="100" value="20"></progress>
+   <button id="tk11btn">Add 5 percent</button>
+
+   <h3>Task12</h3>
+   <div id="txt12" onclick="Task12(this)">like 12</div>
+
+</body>
+
+
+
+
+<script src="1.js"></script>
+<style>
+   #txt12 {
+      color: #fff;
+      padding: 10px;
+      background-color: rgb(0, 140, 255);
+      display: inline;
+      border-radius: 10px;
+   }
+
+   #container {
+      max-width: 700px;
+      display: flex;
+
+
+   }
+
+   #item1,
+   #item2,
+   #item3 {
+      padding: 10px 20px;
+   }
+
+   #item1:hover,
+   #item2:hover,
+   #item3:hover {
+      background-color: rgb(58, 153, 255);
+   }
+
+   #items {
+
+      background: rgb(0, 123, 255);
+      display: flex;
+      align-items: center;
+   }
+
+   #text {
+      border-bottom: 4px solid rgb(0, 123, 255);
+      border-top: 4px solid rgb(0, 123, 255);
+      border-right: 4px solid rgb(0, 123, 255);
+   }
+
+
+   #tk9txt {
+      width: 400px;
+   }
+
+   #rand {
+      height: 40px;
+      width: 100px;
+   }
+
+   fieldset {
+      max-width: 400px;
+   }
+
+   #place6,
+   #place5 {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #000;
+      background-size: cover;
+   }
+</style>
+
+</html>
