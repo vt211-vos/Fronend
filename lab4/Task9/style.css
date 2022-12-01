@@ -1,0 +1,61 @@
+.palet li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 3px;
+}
+.palet{
+    display: flex;
+    margin: 10px;
+}
+.palet li:nth-child(1){
+    background-color: red;
+}
+.palet li:nth-child(2){
+    background-color: green;
+}
+.palet li:nth-child(3){
+    background-color: blue;
+}
+.palet li:nth-child(4){
+    background-color: pink;
+}
+.palet li:nth-child(5){
+    background-color: yellow;
+}
+.palet li:nth-child(6){
+    background-color: orange;
+}
+
+.style{
+    display: flex;
+    margin: 10px;
+}
+.style .item{
+    border: 2px solid yellow;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.size input{
+    width: 50px;
+    height: 30px;
+}
+.font select{
+    height: 35px;
+    width: 60px;
+}
+.size,.font{
+    margin: 10px;
+}
+
+.panel{
+    display: flex;
+}
+.box{
+    background-color: purple;
+    max-width: 600px;
+}

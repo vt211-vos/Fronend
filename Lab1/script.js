@@ -10,5 +10,8 @@ btn.addEventListener('click', function () {
    text.innerHTML = parseInt(number)
 })
 
-
+let x= 5
+function x(){
+   x = 9
+}
 

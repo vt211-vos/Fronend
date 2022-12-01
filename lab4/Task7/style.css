@@ -1,0 +1,13 @@
+.topic{
+    background-color: aqua;
+}
+.text{
+    background-color: aquamarine;
+}
+body{
+    text-align: center;
+}
+.box{
+    max-width: 500px;
+    margin: 0 auto;
+}
